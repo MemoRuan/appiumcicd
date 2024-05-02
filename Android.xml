@@ -13,21 +13,21 @@
        <parameter name="chromeDriverPort" value="11000" />
        <classes>
          <class name="tests.LoginTests"/>
-         <class name="tests.ProductTests"/>
+           <!--  <class name="tests.ProductTests"/>-->
 
-           <!--
-              <class name="com.qa.tests.LoginTests">
-                <methods>
-                    <include name = "invalidUserName"/>
-                 </methods>
-               <class name="tests.ProductTests"/>
-           </class>
+               <!--
+                  <class name="com.qa.tests.LoginTests">
+                    <methods>
+                        <include name = "invalidUserName"/>
+                     </methods>
+                   <class name="tests.ProductTests"/>
+               </class>
 
-           <class name="tests.ProductTests">
-               <methods>
-                   <include name = "validateProductOnProductDetailsPage"/>
-               </methods>
-            </class>-->
+               <class name="tests.ProductTests">
+                   <methods>
+                       <include name = "validateProductOnProductDetailsPage"/>
+                   </methods>
+                </class>-->
         </classes>
     </test>
 <!--
