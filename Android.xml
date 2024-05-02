@@ -12,11 +12,10 @@
        <parameter name="systemPort" value="10000" />
        <parameter name="chromeDriverPort" value="11000" />
        <classes>
-         <class name="tests.LoginTests"/>
-           <!--  <class name="tests.ProductTests"/>-->
-
+           <class name="tests.LoginTests"/>
+           <class name="tests.ProductTests"/>
                <!--
-                  <class name="com.qa.tests.LoginTests">
+                  <class name="tests.LoginTests">
                     <methods>
                         <include name = "invalidUserName"/>
                      </methods>
